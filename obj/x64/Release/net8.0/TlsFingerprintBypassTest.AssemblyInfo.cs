@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TlsFingerprintBypassTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3da08ac662d005d152c4e632675cc598b04364a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e9b437acc49b84e87f22699f50a879f14719eac")]
 [assembly: System.Reflection.AssemblyProductAttribute("TlsFingerprintBypassTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TlsFingerprintBypassTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

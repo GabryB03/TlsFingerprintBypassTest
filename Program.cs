@@ -1,8 +1,17 @@
 ﻿using HttpTwo;
+using JA3;
 
 public class Program
 {
     public static void Main()
+    {
+        Test1();
+        Test2();
+
+        Console.ReadLine();
+    }
+
+    public static void Test1()
     {
         Http2Client client = new Http2Client(new Http2ConnectionSettings("tls.browserleaks.com", 443, true));
         System.Collections.Specialized.NameValueCollection headers = new System.Collections.Specialized.NameValueCollection();
@@ -23,7 +32,19 @@ public class Program
         byte[] data = new byte[0] { };
         Http2Client.Http2Response response = client.Send(new Uri("https://tls.browserleaks.com/json"), HttpMethod.Get, headers, data)
             .GetAwaiter().GetResult();
-        Console.WriteLine(System.Text.Encoding.UTF8.GetString(response.Body));
-        Console.ReadLine();
+        Console.WriteLine("[!] TEST 1 => " + System.Text.Encoding.UTF8.GetString(response.Body));
+
+    }
+
+    public static void Test2()
+    {
+        Ja3MessageHandler handler = new Ja3MessageHandler();
+
+        using (HttpClient client = new HttpClient(handler))
+        {
+            client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
+            string response = client.GetStringAsync("https://tls.browserleaks.com/json").GetAwaiter().GetResult();
+            Console.WriteLine("[!] TEST 2 => " + response);
+        }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj": {}
+    "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj": {
+    "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj",
+        "projectUniqueName": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj",
         "projectName": "TlsFingerprintBypassTest",
-        "projectPath": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj",
+        "projectPath": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest.csproj",
         "packagesPath": "C:\\Users\\bolog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\TlsFingerprintBypassTest\\obj\\",
+        "outputPath": "C:\\Users\\bolog\\Desktop\\TlsFingerprintBypassTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bolog\\AppData\\Roaming\\NuGet\\NuGet.Config",
